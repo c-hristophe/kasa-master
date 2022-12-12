@@ -1,0 +1,47 @@
+.navbar {
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Helvetica Neue", sans-serif;
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+  
+  
+    &__link {
+     display: flex;
+     max-width: 100%;
+     justify-content:space-between;
+     font-size: 23px;
+    
+   
+        
+  
+      }
+    }
+  
+  .nav__link {
+
+        display: flex;
+        max-width: 30%;
+        color: #FF6060;
+        display: flex;
+        
+        justify-content: space-around;
+        font-weight: 500;
+        text-decoration: underline;
+        
+           
+        
+          
+          &:focus {
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+          
+          
+      }
+  
+  
+ 

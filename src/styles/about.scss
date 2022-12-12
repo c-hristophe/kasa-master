@@ -1,0 +1,33 @@
+.about {
+    margin: 0%;
+    width: 100%;
+    min-height: 100%;
+    
+    
+  
+    &__dropdowns {
+      width: 100%;
+      
+      text-align: auto;
+      margin-left: 12%;
+      margin-right: auto;
+      
+    }
+ 
+&__dropdowns {
+    width: 150%;
+   
+  
+}
+ }
+
+ @media screen and (max-width: 800px) {
+    .about {
+     
+    &__dropdowns {
+        width: 80%;
+        margin-left: 10%;
+      
+    }
+     }
+ }

@@ -1,0 +1,15 @@
+.tag {
+  background: #FF6060;
+  border-radius: 10px;
+  color: white;
+  padding: 3px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  text-align: center;
+}
+.tag__text {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}/*# sourceMappingURL=tags.css.map */

@@ -1,0 +1,7 @@
+.rating {
+  display: flex;
+  align-items: center;
+}
+.rating__icon {
+  margin-right: 5px;
+}/*# sourceMappingURL=rating.css.map */

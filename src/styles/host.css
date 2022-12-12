@@ -1,0 +1,32 @@
+.host {
+  display: flex;
+  justify-content: flex-end;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin-top: 20px;
+  margin-left: 40px;
+  padding-left: -10px;
+}
+.host__name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.host__name p {
+  margin: 0;
+  text-align: end;
+}
+.host__picture {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: right;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+  .host {
+    margin-left: 0px;
+  }
+}/*# sourceMappingURL=host.css.map */
