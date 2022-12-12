@@ -20,12 +20,9 @@ const Slider = ({ slides }) => {
     <div className="slider">
       {slides.map((picture, index) => {
         return (
-          <div
-            key={index}
-            className={index === current}
-          >
+          <div key={index}>
             {index === current && (
-            <img src={picture} alt="image" className="slider__picture" />
+            <img src={picture} alt="" className="slider__picture" />
             )}
           </div>
         );
