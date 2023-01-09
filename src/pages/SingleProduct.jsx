@@ -9,9 +9,18 @@ import Host from "../compoments/Host";
 import Rating from "../compoments/Rating";
 import { useEffect } from 'react'
 
+import PageNotFound from "../pages/PageNotFound"
+
 const SingleProduct = () => {
   const { productId } = useParams();
+  
   const product = list.find((product) => product.id === productId);
+  
+  if (product===undefined){
+    return <PageNotFound />
+  }
+
+  else {
   const { equipments, description, title, location, pictures, rating, host } = product;
 
   useEffect(() => {
@@ -45,6 +54,8 @@ const SingleProduct = () => {
           </div>
     </div>
   );
+}
+
 };
 
 export default SingleProduct;
